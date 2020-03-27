@@ -14,8 +14,24 @@
   <script type="text/JavaScript" src="./js/strings.js"></script>
   <script type="text/JavaScript" src="./js/objects.js"></script>
   <script type="text/JavaScript" src="./js/json.js"></script>
+  <script type="text/JavaScript" src="./js/dom.js" defer></script>
+  <!-- The DEFER attribute in our SCRIPT element is used to tell the browser to wait until the full DOM is loaded! Important so our script(s) can SEE the HTML elements we want to target!  -->
+  <script type="text/JavaScript" src="./js/events.js" defer></script>
 </head>
 <body>
   <h1>Let's Try JavaScript</h1>
+  <p id="my-paragraph">
+    I'm a paragraph with an ID.
+    <a href="#" class="my-link">
+      First Link
+    </a>
+    <a href="#" class="my-link">
+      Second Link
+    </a>
+    <a href="#">
+      Third Link
+    </a>
+  </p>
+  <p></p>
 </body>
 </html>
